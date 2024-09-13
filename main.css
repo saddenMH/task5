@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: teal;
+    width: 1500px;
+    height: 1500px;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between; 
+    justify-content: space-between; 
+    justify-content: space-evenly;
+    justify-items: ;
+  
+}
+
+.child {
+    background-color: rgb(235, 230, 162);
+    width: 300px;
+    height: 300px;
+    box-shadow: 2px 5px 5px 0 rgb(65, 207, 193);
+    padding: 5px;
+    gap: 5px;
+    overflow-x:hidden;
+    box-sizing: border-box;
+
+   
+}
+
+.ch {
+    border-radius: 4px;
+    padding: 2px;
+    border: 2px solid black;
+    box-shadow: 2px 5px 5px 0 teal;
+}
+
+.img {
+   
+    border: 2px solid black;
+    padding: 3px 2px; 
+    box-shadow: 2px 5px 4px 0 teal;
+
+}
+
+.word {
+    text-shadow: 2px 2px 4px rgba(20, 222, 219, 0.5); 
+}
+
+.para {
+    border: 2px solid black;
+    box-shadow: 2px 10px 20px 0 teal;
+    padding: 2px;
+}
